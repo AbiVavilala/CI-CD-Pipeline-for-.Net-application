@@ -92,10 +92,21 @@ you can see build pipeline is running once we save the changes to the layout.csh
 ![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/test2.png)
 
 
+let's create a new release for new build
+
+Click on edit pipeline and add the new build artifact as new artifact
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/test3.png)
+
+The pipeline is running.
+
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/test4.png)
+
+Pipeline ran succesfuly.
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/test5.png)
 
 
+I will refresh the browser and see the changes made to the repo.
 
-
-
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/test6.png)
 
 
