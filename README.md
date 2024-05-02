@@ -45,11 +45,11 @@ Now click on save and run. this will run the build pipeline and create a artifac
 ## create a release pipeline.
 click on release and select new release pipeline.
 
-[](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/createrelease.png)
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/createrelease.png)
 
 now just like build pipeline we need to add tasks to the release pipeline.
 
-[](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/addtasks.png)
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/addtasks.png)
 
 
 
