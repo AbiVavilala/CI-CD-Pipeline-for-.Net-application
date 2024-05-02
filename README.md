@@ -52,7 +52,40 @@ now just like build pipeline we need to add tasks to the release pipeline.
 ![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/addtasks.png)
 
 
+Add ARm Template as task as we need to create the environment for our app.
 
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/release1.png)
+
+add varaibles to the pipeline. In the process we are passing some variables to the pipeline.
+
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/release2.png)
+
+add App service deployment as task. we will deploy our web app into a app service plan
+
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/release3.png)
+
+release pipeline ran sucessfully. 
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/releasesucess.png)
+
+App has been deployed sucessfully.
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/appsucess.png)
+
+## let's test our pipeline
+
+I will change the display name from 
+
+```
+                            <h1>Priya Abilash</h1>
+                            <h2>avani subsidiary</h2>
+```
+to 
+
+```
+                            <h1>Sydney Auto Parts</h1>
+                            <h2>avani subsidiary</h2>
+```
+
+we have pipeline build so new artifact will be created and we can manually deploy the release pipeline.
 
 
 
