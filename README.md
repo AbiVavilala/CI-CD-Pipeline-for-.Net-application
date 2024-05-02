@@ -86,6 +86,16 @@ to
 ```
 
 we have pipeline build so new artifact will be created and we can manually deploy the release pipeline.
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/test1.png)
+
+you can see build pipeline is running once we save the changes to the layout.cshtml file in our repo
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/test2.png)
+
+
+
+
+
+
 
 
 
