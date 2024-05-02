@@ -11,14 +11,16 @@ First create a project in Azure DevOps.
 ## Push source Code into Azure Repo
 
 I pushed .Net Source Code into Azure DevOps Repo
-![]()
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/Repo.png)
 
 ## Build a  Pipeline for the application
 
 Create a new pipeline in Pipelines
-![]()
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/createpipeline.png)
 
 Select Azure Repo as source Repo
-![]()
+![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/selectrepo.png)
+
+
 
 
