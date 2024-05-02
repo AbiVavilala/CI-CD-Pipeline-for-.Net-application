@@ -31,7 +31,10 @@ first task is Nuget. Nuget is used to download libraries for >net Application.
 Second task is we need Visual studio to build the project. I will add Build commands needed for this project below.
 
 ```
-'/p:DeployOnBuild=true  /p:WebPublishMethod=Package /p:PackageAsSingleFile=true  /p:SkipInvalidConfigurations=true  /p:PackageLocation="$(build.stagingDirectory)" /p:IncludeServerNameInBuildInfo=True /p:GenerateBuildInfoConfigFile=true /p:BuildSymbolStorePath="$(SymbolPath)" /p:ReferencePath="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsft\Pex"'
+'/p:DeployOnBuild=true  /p:WebPublishMethod=Package /p:PackageAsSingleFile=true  
+/p:SkipInvalidConfigurations=true  /p:PackageLocation="$(build.stagingDirectory)" 
+/p:IncludeServerNameInBuildInfo=True /p:GenerateBuildInfoConfigFile=true 
+/p:BuildSymbolStorePath="$(SymbolPath)" /p:ReferencePath="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsft\Pex"'
 ```
 ![](https://github.com/AbiVavilala/CI-CD-Pipeline-for-.Net-application/blob/main/images/pipeline2.png)
 
